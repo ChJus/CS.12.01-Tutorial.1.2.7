@@ -19,7 +19,6 @@ public class Digits {
     return digitList;
   }
 
-
   // Checks if digits are strictly increasing from left to right
   public boolean isStrictlyIncreasing() {
     for (int i = 0; i < digitList.size() - 1; i++) { // Checks each pair digits (1, 2), (2, 3), ... (n-1, n)
